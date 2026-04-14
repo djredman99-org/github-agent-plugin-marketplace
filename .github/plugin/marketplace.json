@@ -1,0 +1,22 @@
+{
+  "name": "djr-plugins",
+  "metadata": {
+    "description": "GitHub Copilot plugins",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "djredman99-org",
+    "email": "djredman99@github.com"
+  },
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "./plugins/workiq",
+      "description": "Code Reviewer plugin for GitHub Copilot.",
+      "version": "1.0.0",
+      "skills": [
+        "./skills/workiq"
+      ]
+    }
+  ]
+}
