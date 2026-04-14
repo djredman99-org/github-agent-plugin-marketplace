@@ -10,13 +10,19 @@
   },
   "plugins": [
     {
-      "name": "code-review",
-      "source": "./plugins/workiq",
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
       "description": "Code Reviewer plugin for GitHub Copilot.",
       "version": "1.0.0",
-      "skills": [
-        "./skills/workiq"
-      ]
+      "commands": [
+        "./commands/code-reviewer.prompt.md"
+      ],
+      "agents": [
+        "./agents/senior-code-reviewer.md"
+      ],
+      "mcpServers": [
+        "./.mcp.json"
+      ]      
     }
   ]
 }
