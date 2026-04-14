@@ -15,14 +15,11 @@
       "description": "Code Reviewer plugin for GitHub Copilot.",
       "version": "1.0.0",
       "commands": [
-        "./commands/code-reviewer.prompt.md"
+        "./commands"
       ],
       "agents": [
-        "./agents/senior-code-reviewer.md"
-      ],
-      "mcpServers": [
-        "./.mcp.json"
-      ]      
+        "./agents"
+      ]     
     }
   ]
 }
