@@ -2,7 +2,7 @@
   "name": "djr-plugins",
   "metadata": {
     "description": "GitHub Copilot plugins",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "owner": {
     "name": "djredman99-org",
