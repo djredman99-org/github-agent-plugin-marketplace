@@ -1,5 +1,11 @@
 {
 	"name": "code-reviewer",
 	"version": "1.0.0",
-	"description": ""
+	"description": "My description",
+	"commands": [
+        "./commands"
+      ],
+      "agents": [
+        "./agents"
+      ]     
 }
