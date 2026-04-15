@@ -1,5 +1,8 @@
 {
 	"name": "code-reviewer",
 	"version": "1.0.0",
-	"description": ""
+	"description": "Code Reviewer plugin for GitHub Copilot.",
+	"commands": "commands/",
+	"agents": "agents/",
+	"mcpServers": ".mcp.json"
 }

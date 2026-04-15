@@ -15,11 +15,11 @@
       "description": "Code Reviewer plugin for GitHub Copilot.",
       "version": "1.0.0",
       "commands": [
-        "./commands"
+        "./plugins/code-reviewer/commands"
       ],
       "agents": [
-        "./agents"
-      ]     
+        "./plugins/code-reviewer/agents"
+      ]
     }
   ]
 }
