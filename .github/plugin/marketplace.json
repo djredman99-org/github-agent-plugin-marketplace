@@ -12,15 +12,9 @@
   "plugins": [
     {
       "name": "code-reviewer",
-      "source": "./plugins/code-reviewer",
+      "source": "code-reviewer",
       "description": "Code Reviewer plugin for GitHub Copilot.",
-      "version": "1.0.0",
-      "commands": [
-        "./commands"
-      ],
-      "agents": [
-        "./agents"
-      ]     
+      "version": "1.0.0"   
     }
   ]
 }
