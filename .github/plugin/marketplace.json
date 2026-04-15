@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "code-reviewer",
-      "source": "../../plugins/code-reviewer",
+      "source": "djredman99-org/github-agent-plugin-marketplace/plugins/code-reviewer",
       "description": "Code Reviewer plugin for GitHub Copilot.",
       "version": "1.0.0",
       "commands": [
